@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Satyarth's Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Tic Tac Toe</h1>
+							<span class="image fit"><img src="images/pic03.jpg" alt="img" height="550" width="450" /></span>
+							<p>It's a classic, not much explanation is needed here. This exe file has a beautiful interface and smooth working with absolutely no bugs. Made using Python</p>
+							<p>Here's the code for beginners who wanna try it as well :
+								<br>
+								<br>def display_board(board):
+								<br># ASCII art to display the tic-tac-toe board
+								<br>print(f' {board[0]} | {board[1]} | {board[2]} ')
+								<br>print('-----------')
+								<br>print(f' {board[3]} | {board[4]} | {board[5]} ')
+								<br>print('-----------')
+								<br>print(f' {board[6]} | {board[7]} | {board[8]} ')
+								<br>
+								<br>def player1_move(board):
+								<br># Prompt the player for their next move
+								<br>move = int(input('Enter your move (1-9): '))
+								<br># Update the board with the player's move
+								<br>board[move - 1] = 'X'
+								<br>
+								<br>def player2_move(board):
+								<br># Prompt the player for their next move
+								<br>move = int(input('Enter your move (1-9): '))
+								<br># Update the board with the player's move
+								<br>board[move - 1] = '0'
+								<br>
+								<br>def check_win(board):
+								<br># Check for a horizontal win
+								<br>if board[0] == board[1] == board[2] and board[0] != ' ':
+								<br>return True
+								<br>if board[3] == board[4] == board[5] and board[3] != ' ':
+								<br>return True
+								<br>if board[6] == board[7] == board[8] and board[6] != ' ':
+								<br>return True
+								<br># Check for a vertical win
+								<br>if board[0] == board[3] == board[6] and board[0] != ' ':
+								<br>return True
+								<br>if board[1] == board[4] == board[7] and board[1] != ' ':
+								<br>return True
+								<br>if board[2] == board[5] == board[8] and board[2] != ' ':
+								<br>return True
+								<br># Check for a diagonal win
+								<br>if board[0] == board[4] == board[8] and board[0] != ' ':
+								<br>return True
+								<br>if board[2] == board[4] == board[6] and board[2] != ' ':
+								<br>return True
+								<br># No win
+								<br>return False
+								<br>
+								<br>def play_game():
+								<br># Initialize the board
+								<br>board = [' '] * 9
+								<br># Game loop
+								<br>while True:
+								<br>	# Display the board
+								<br>	display_board(board)
+								<br>	# Player move
+								<br>	player1_move(board)
+								<br>	# Check for a win
+								<br>	if check_win(board):
+								<br>		print('Player 1 win!')
+								<br>		break
+								<br>	# Computer move
+								<br>	player2_move(board)
+								<br>	# Check for a win
+								<br>	if check_win(board):
+								<br>		print('Player 2 wins!')
+								<br>		break
+								<br>	
+								<br>		# Start the game
+								<br>		play_game()
+								<br>
+								<br> Just paste it in your compiler and have fun!
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: Satyarth Prakash Srivastava</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
