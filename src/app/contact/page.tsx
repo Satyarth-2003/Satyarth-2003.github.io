@@ -11,7 +11,7 @@ import { profile } from "@/content/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Sunny Patel, a full-stack software developer in the Greater Toronto Area. Email, LinkedIn, or the contact form all reach me directly.",
+    "Get in touch with Satyarth Prakash Srivastava, an AI Engineer based in Gurugram, India. Email, LinkedIn, or the contact form all reach me directly.",
   alternates: { canonical: "/contact" },
 };
 
@@ -30,8 +30,8 @@ export default function ContactPage() {
         <div className="mt-12 grid gap-14 lg:grid-cols-2 lg:gap-20">
           <div>
             <p className="max-w-md text-lg leading-relaxed text-bone-dim">
-              Open to new-grad roles and hard problems. The fastest way to reach
-              me is right here.
+              Open to AI engineering roles, GenAI pipelines, and production systems.
+              The fastest way to reach me is right here.
             </p>
 
             <div className="mt-9">
@@ -56,7 +56,7 @@ export default function ContactPage() {
                   className="group inline-flex items-center gap-3 text-bone transition-colors hover:text-ember"
                 >
                   <GithubIcon className="h-4 w-4 text-muted transition-colors group-hover:text-ember" />
-                  github.com/sunnypatell
+                  github.com/Satyarth-2003
                 </a>
               </li>
               <li>
@@ -68,7 +68,7 @@ export default function ContactPage() {
                   className="group inline-flex items-center gap-3 text-bone transition-colors hover:text-ember"
                 >
                   <LinkedinIcon className="h-4 w-4 text-muted transition-colors group-hover:text-ember" />
-                  Sunny Patel
+                  {profile.name}
                 </a>
               </li>
               <li className="inline-flex items-center gap-3 text-muted">

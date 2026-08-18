@@ -5,33 +5,33 @@ import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { Container, Eyebrow } from "@/components/ui/primitives";
 import { RevealText } from "@/components/motion/reveal-text";
 import { Reveal } from "@/components/ui/reveal";
-import { GithubIcon, OrcidIcon } from "@/components/ui/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/ui/icons";
 import { CopyButton } from "@/components/ui/copy-button";
 import { research } from "@/content/site";
 
 export const metadata: Metadata = {
   title: research.title,
   description:
-    "An independent research paper by Sunny Patel on the reliability of semantic caches for large language models: false hits, downstream cost, and calibration.",
+    "A technical breakdown by Satyarth Prakash Srivastava on architecting parallel agentic audit systems and high-throughput LLM pipelines at Adda Education.",
   alternates: { canonical: "/research" },
   openGraph: {
     type: "article",
-    title: `${research.title} · Sunny Patel`,
+    title: `${research.title} · Satyarth Prakash Srivastava`,
     description:
-      "An independent, DOI-published research paper on the reliability of semantic caches for large language models.",
+      "A technical case study on scaling parallel multi-agent LLM systems and multimodal pipelines under production constraints.",
     url: "/research",
     images: [
       {
         url: "/og-image.png",
         width: 2560,
         height: 1280,
-        alt: "Sunny Patel, I build the whole stack, from the screen to the silicon",
+        alt: "Satyarth Prakash Srivastava · AI Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${research.title} · Sunny Patel`,
+    title: `${research.title} · Satyarth Prakash Srivastava`,
     images: ["/og-image.png"],
   },
 };
@@ -73,7 +73,7 @@ export default function ResearchPage() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-1.5 text-ember transition-colors hover:text-ember-bright"
           >
-            Read the paper
+            Download Summary
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
           </a>
           <a
@@ -83,7 +83,7 @@ export default function ResearchPage() {
             className="inline-flex items-center gap-1.5 text-muted transition-colors hover:text-bone"
           >
             <GithubIcon className="h-4 w-4" />
-            Code and data
+            GitHub Profile
           </a>
         </div>
       </Container>
@@ -94,7 +94,7 @@ export default function ResearchPage() {
             <div className="p-6 sm:p-8">
               <Image
                 src={research.image}
-                alt="Figure from the paper: cosine similarity cannot see meaning, and where a false hit is born"
+                alt="Architecture Diagram: Multi-Agent Parallel Audit Pipeline with Token Bucket Scheduling"
                 width={1040}
                 height={540}
                 sizes="(max-width: 1024px) 100vw, 56rem"
@@ -103,9 +103,8 @@ export default function ResearchPage() {
               />
             </div>
             <figcaption className="border-t border-black/10 px-6 py-3 font-mono text-[0.7rem] leading-relaxed text-black/55 sm:px-8">
-              A figure from the paper, generated from code: a cache reuses an answer
-              when two prompts look close, and a false hit is born when they look
-              close but mean different things.
+              Architecture representation: parallel agentic worker pools evaluating spoken and
+              educational telemetry with token-bucket rate controllers and cost-optimized routing.
             </figcaption>
           </figure>
         </Reveal>
@@ -170,12 +169,12 @@ export default function ResearchPage() {
 
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs">
             <a
-              href={research.doi}
+              href={research.repo}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1.5 text-ember transition-colors hover:text-ember-bright"
             >
-              DOI: 10.5281/zenodo.20532711
+              GitHub: Satyarth-2003
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
             <a
@@ -184,8 +183,8 @@ export default function ResearchPage() {
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1.5 text-muted transition-colors hover:text-bone"
             >
-              <OrcidIcon className="h-4 w-4" />
-              ORCID
+              <LinkedinIcon className="h-4 w-4" />
+              LinkedIn Profile
               <ArrowUpRight className="h-3.5 w-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
           </div>

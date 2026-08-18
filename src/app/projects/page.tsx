@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Projects Sunny Patel has built and shipped end to end: a resume screener 2,000+ people use, open-source developer tools, security work, and an independent research paper with a DOI.",
+    "Projects Satyarth Prakash Srivastava has built and shipped end to end: multimodal RAG simulators, real-time voice agents, scalable scripting pipelines, and production AI architectures.",
   alternates: { canonical: "/projects" },
 };
 
@@ -141,11 +141,10 @@ export default function ProjectsPage() {
       </Container>
 
       <Container className="mt-32 border-t border-line pt-16">
-        <Eyebrow>research</Eyebrow>
+        <Eyebrow>research & architecture</Eyebrow>
         <p className="mt-6 max-w-xl text-[0.97rem] leading-relaxed text-bone-dim">
-          Most students never write a research paper unaffiliated with any
-          institution. I did: preregistered, reproducible end to end, with a real
-          DOI.
+          Deep-dive architecture breakdowns from scaling multi-agent evaluations across
+          hundreds of thousands of production calls under strict cost and rate ceilings.
         </p>
         <div className="mt-10">
           <Reveal>

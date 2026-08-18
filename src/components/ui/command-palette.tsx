@@ -83,7 +83,7 @@ export function CommandPalette() {
           close();
         },
       },
-      { id: "download-resume", group: "Actions", label: "Download résumé (PDF)", keywords: "cv", run: () => ext(profile.resumeFile) },
+      { id: "download-resume", group: "Actions", label: "Download résumé (PDF)", keywords: "cv", run: () => go(profile.resume) },
     ];
     return [...nav, ...projectCmds, ...researchCmds, ...links, ...actions];
   }, [go, ext, close]);

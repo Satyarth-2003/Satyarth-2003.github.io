@@ -5,12 +5,12 @@ import { cn } from "@/lib/utils";
 import { usePrefersReducedMotion } from "@/lib/hooks";
 
 const SCRIPT = [
-  { t: "$ boot --profile sunny", c: "text-bone" },
-  { t: "  interface ............. ok", c: "text-muted" },
-  { t: "  application ........... ok", c: "text-muted" },
-  { t: "  systems ............... ok", c: "text-muted" },
-  { t: "  infrastructure ........ ok", c: "text-muted" },
-  { t: "→ all layers online", c: "text-ember" },
+  { t: "$ boot --profile satyarth", c: "text-bone" },
+  { t: "  llm_orchestration ...... ok", c: "text-muted" },
+  { t: "  agentic_mesh ........... ok", c: "text-muted" },
+  { t: "  multimodal_vision ...... ok", c: "text-muted" },
+  { t: "  inference_pipeline ..... ok", c: "text-muted" },
+  { t: "→ all neural systems online", c: "text-ember" },
 ];
 const STARTS = SCRIPT.reduce<number[]>((arr, l, i) => {
   arr.push(i === 0 ? 0 : arr[i - 1] + SCRIPT[i - 1].t.length);

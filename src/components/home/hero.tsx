@@ -31,10 +31,10 @@ export function Hero() {
 
           <RevealText
             as="h1"
-            className="mt-7 text-balance font-display text-[3.1rem] font-semibold leading-[0.95] tracking-[-0.035em] text-bone sm:text-[4.1rem] lg:text-[4.7rem]"
+            className="mt-7 text-balance font-display text-[2.5rem] font-semibold leading-[1.02] tracking-[-0.03em] text-bone sm:text-[3.2rem] lg:text-[3.6rem]"
           >
-            I build the whole stack, from the screen to the{" "}
-            <span className="text-ember">silicon.</span>
+            I build production GenAI systems, from agentic pipelines to multimodal{" "}
+            <span className="text-ember">scale.</span>
           </RevealText>
 
           <p className="mt-7 max-w-md text-[1.02rem] leading-relaxed text-bone-dim sm:text-lg">
@@ -62,15 +62,19 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-12 max-w-sm">
-            <BootSequence />
-          </div>
         </div>
 
         <div className="relative h-[40vh] min-h-[300px] w-full lg:h-[80vh]">
           <LazyDevice poster="/assets/hero-poster.webp" />
         </div>
       </Container>
+
+      <Container className="pb-16">
+        <div className="max-w-sm">
+          <BootSequence />
+        </div>
+      </Container>
+
       <ScrollCue />
     </section>
   );

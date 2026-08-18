@@ -11,7 +11,7 @@ import {
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import type { Group, Mesh } from "three";
 
-const URL = "/models/retro_computer.glb?v=5"; // swap this one path to use a different rig
+const URL = "/models/retro_computer.glb?v=7"; // swap this one path to use a different rig
 
 function Model({ scale }: { scale: number }) {
   const ref = useRef<Group>(null);

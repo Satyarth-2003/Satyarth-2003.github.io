@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Sunny Patel · Software Developer",
-    short_name: "Sunny Patel",
+    name: "Satyarth Prakash Srivastava · AI Engineer",
+    short_name: "Satyarth Srivastava",
     description:
-      "Software developer who works the whole stack, from real-time web to the infrastructure underneath.",
+      "AI Engineer building production LLM-powered automation systems, GenAI pipelines, and agentic workflows at scale.",
     start_url: "/",
     display: "standalone",
     background_color: "#0b0d0f",

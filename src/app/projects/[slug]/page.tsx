@@ -10,7 +10,7 @@ import { ProjectWindow } from "@/components/ui/project-window";
 import { RichText } from "@/components/ui/rich-text";
 import { ProjectSignals, ActivePill } from "@/components/ui/project-signals";
 import { GithubIcon } from "@/components/ui/icons";
-import { projects } from "@/content/site";
+import { projects, WEB_PROJECTS } from "@/content/site";
 
 export const dynamicParams = false;
 
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/projects/${p.slug}` },
     openGraph: {
       type: "article",
-      title: `${p.name} · Sunny Patel`,
+      title: `${p.name} · Satyarth Prakash Srivastava`,
       description: p.oneLiner,
       url: `/projects/${p.slug}`,
       images: [
@@ -38,13 +38,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: "/og-image.png",
           width: 2560,
           height: 1280,
-          alt: "Sunny Patel, I build the whole stack, from the screen to the silicon",
+          alt: "Satyarth Prakash Srivastava · AI Engineer",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${p.name} · Sunny Patel`,
+      title: `${p.name} · Satyarth Prakash Srivastava`,
       description: p.oneLiner,
       images: ["/og-image.png"],
     },
@@ -144,7 +144,7 @@ export default async function ProjectDetail({ params }: Props) {
                 src={p.image}
                 alt={`${p.name} screenshot`}
                 url={
-                  ["ats-screener", "axelot", "netdash"].includes(p.slug)
+                  WEB_PROJECTS.includes(p.slug)
                     ? p.links.live
                     : undefined
                 }

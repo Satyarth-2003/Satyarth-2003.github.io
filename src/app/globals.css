@@ -221,13 +221,14 @@ body {
   transform: translateY(0);
 }
 
-/* clean print output (resume is a separate PDF, but any page should print) */
+/* clean print output; the resume page is printed to PDF directly via window.print() */
 @media print {
   header,
   footer,
   .cursor-dot,
   .cursor-ring,
-  canvas {
+  canvas,
+  .no-print {
     display: none !important;
   }
   :root {
@@ -236,6 +237,25 @@ body {
   body {
     background: #fff;
     color: #000;
+  }
+  .print-sheet {
+    border: none !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    backdrop-filter: none !important;
+    margin: 0 !important;
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  .print-sheet * {
+    color: #000 !important;
+    border-color: #ccc !important;
+  }
+  .print-sheet .text-ember {
+    color: #b5431f !important;
+  }
+  .print-page {
+    padding: 0 !important;
   }
 }
 

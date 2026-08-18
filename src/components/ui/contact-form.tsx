@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import confetti from "canvas-confetti";
 import { ArrowRight } from "lucide-react";
 import { ctaClass } from "@/components/ui/primitives";
+import { profile } from "@/content/site";
 
 const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
@@ -94,7 +95,7 @@ export function ContactForm() {
 
     if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
       setStatus("error");
-      setServerError("Email isn't wired up yet. Reach me at sunnypatel124555@gmail.com.");
+      setServerError(`Email isn't wired up yet. Reach me at ${profile.email}.`);
       return;
     }
 
@@ -109,12 +110,12 @@ export function ContactForm() {
         {
           name: data.name,
           from_name: data.name,
-          to_name: "Sunny Patel",
+          to_name: profile.name,
           email: data.email,
           from_email: data.email, // the var the actual template reads; without it the email came through empty
           reply_to: data.email,
           user_email: data.email,
-          to_email: "sunnypatel124555@gmail.com",
+          to_email: profile.email,
           message: data.message,
           "g-recaptcha-response": token,
         },
@@ -186,7 +187,7 @@ export function ContactForm() {
           rows={5}
           required
           className={`${field} resize-none`}
-          placeholder="Hey Sunny, we're hiring and your range stood out."
+          placeholder="Hey Satyarth, we're building an AI system and your background stood out."
           aria-invalid={errors.message ? "true" : "false"}
           aria-describedby={errors.message ? "err-message" : undefined}
         />

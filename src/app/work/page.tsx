@@ -8,7 +8,7 @@ import { education, certifications } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "Sunny Patel's experience across product engineering, IT, and infrastructure.",
+  description: "Satyarth Prakash Srivastava's experience architecting production GenAI pipelines, agentic workflows, and scalable AI infrastructure.",
   alternates: { canonical: "/work" },
 };
 
@@ -21,11 +21,11 @@ export default function WorkPage() {
           as="h1"
           className="mt-6 max-w-3xl font-display text-[2.4rem] font-semibold leading-[1.03] tracking-[-0.025em] text-bone sm:text-5xl"
         >
-          Building products, and keeping the systems under them alive.
+          Architecting GenAI systems, and scaling agentic intelligence.
         </RevealText>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-bone-dim">
-          A few years spread across product engineering, IT, and the
-          infrastructure most people never think about.
+          Production AI engineering delivering cost savings, throughput gains,
+          and robust LLM workflows at enterprise scale.
         </p>
       </Container>
 

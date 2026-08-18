@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Hanken_Grotesk } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-// import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Providers } from "@/components/providers";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
@@ -13,68 +12,77 @@ const display = Geist({
   variable: "--font-display-src",
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
 
 const mono = Geist_Mono({
   variable: "--font-mono-src",
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
 
 const body = Hanken_Grotesk({
   variable: "--font-body-src",
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
 
-const siteUrl = "https://www.sunnypatel.net";
+const siteUrl = "https://satyarth-2003.github.io";
 const description =
-  "Sunny Patel is a software developer who works the whole stack, from real-time web apps to the systems and infrastructure underneath. Honours CS at Ontario Tech.";
+  "Satyarth Prakash Srivastava is an AI Engineer with production experience building LLM-powered automation systems, GenAI pipelines, and agentic workflows at scale.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Sunny Patel · Software Developer",
-    template: "%s · Sunny Patel",
+    default: "Satyarth Prakash Srivastava · AI Engineer",
+    template: "%s · Satyarth Prakash Srivastava",
   },
   description,
   keywords: [
-    "Sunny Patel",
-    "Sunny Jayendra Patel",
-    "Sunny J Patel",
-    "Software Developer",
-    "Full-stack",
-    "Systems",
-    "Cloud",
-    "React",
-    "Three.js",
-    "Ontario Tech",
+    "Satyarth Prakash Srivastava",
+    "Satyarth Srivastava",
+    "AI Engineer",
+    "Generative AI",
+    "GenAI",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "Agentic Workflows",
+    "Multimodal AI",
+    "Computer Vision",
+    "Python",
+    "PyTorch",
+    "FastAPI",
+    "Adda247",
+    "Chandigarh University",
   ],
-  authors: [{ name: "Sunny Patel", url: siteUrl }],
-  creator: "Sunny Patel",
+  authors: [{ name: "Satyarth Prakash Srivastava", url: siteUrl }],
+  creator: "Satyarth Prakash Srivastava",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: siteUrl,
     locale: "en_US",
-    title: "Sunny Patel · Software Developer",
+    title: "Satyarth Prakash Srivastava · AI Engineer",
     description:
-      "A developer across the whole stack, from real-time web to the infrastructure underneath.",
-    siteName: "Sunny Patel",
+      "AI Engineer building production LLM-powered automation systems, GenAI pipelines, and agentic workflows at scale.",
+    siteName: "Satyarth Prakash Srivastava",
     images: [
       {
         url: "/og-image.png",
         width: 2560,
         height: 1280,
-        alt: "Sunny Patel, I build the whole stack, from the screen to the silicon",
+        alt: "Satyarth Prakash Srivastava · AI Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sunny Patel · Software Developer",
+    title: "Satyarth Prakash Srivastava · AI Engineer",
     description:
-      "A developer across the whole stack, from real-time web to the infrastructure underneath.",
+      "AI Engineer building production LLM-powered automation systems, GenAI pipelines, and agentic workflows at scale.",
     images: ["/og-image.png"],
   },
 };
@@ -84,27 +92,32 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
-// structured data so an already-indexed personal brand can surface a rich result
+// structured data for personal brand & SEO
 const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Person",
       "@id": `${siteUrl}/#person`,
-      name: "Sunny Patel",
-      alternateName: ["Sunny Jayendra Patel", "Sunny J Patel"],
+      name: "Satyarth Prakash Srivastava",
+      alternateName: ["Satyarth Srivastava", "Satyarth P. Srivastava"],
       url: siteUrl,
-      jobTitle: "Software Developer",
+      jobTitle: "AI Engineer",
       email: profile.email,
       description,
+      worksFor: {
+        "@type": "Organization",
+        name: "Adda Education",
+      },
       alumniOf: {
         "@type": "CollegeOrUniversity",
-        name: "Ontario Tech University",
+        name: "Chandigarh University",
       },
       address: {
         "@type": "PostalAddress",
-        addressRegion: "Ontario",
-        addressCountry: "CA",
+        addressLocality: "Gurugram",
+        addressRegion: "Haryana",
+        addressCountry: "IN",
       },
       image: `${siteUrl}/assets/portrait.jpg`,
       sameAs: [profile.socials.github, profile.socials.linkedin],
@@ -113,7 +126,7 @@ const structuredData = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
-      name: "Sunny Patel",
+      name: "Satyarth Prakash Srivastava Portfolio",
       author: { "@id": `${siteUrl}/#person` },
     },
   ],
@@ -142,8 +155,6 @@ export default function RootLayout({
           <Footer />
         </Providers>
         <Analytics />
-        {/* paused while over the hobby quota; uncomment to resume collection */}
-        {/* <SpeedInsights /> */}
       </body>
     </html>
   );

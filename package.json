@@ -1,17 +1,17 @@
 {
-  "name": "sunny-portfolio",
+  "name": "satyarth-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Personal portfolio of Sunny Patel, built with Next.js, React, and an interactive 3D hero.",
-  "author": "Sunny Patel <sunnypatel124555@gmail.com> (https://www.sunnypatel.net)",
-  "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://www.sunnypatel.net",
+  "description": "Personal AI Engineer portfolio of Satyarth Prakash Srivastava, built with Next.js, React, and an interactive 3D hero.",
+  "author": "Satyarth Prakash Srivastava <satyarth.s.2003@gmail.com> (https://satyarth-2003.github.io)",
+  "license": "MIT",
+  "homepage": "https://satyarth-2003.github.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunnypatell/Portfolio.git"
+    "url": "git+https://github.com/Satyarth-2003/Satyarth-2003.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/sunnypatell/Portfolio/issues"
+    "url": "https://github.com/Satyarth-2003/Satyarth-2003.github.io/issues"
   },
   "engines": {
     "node": ">=22"

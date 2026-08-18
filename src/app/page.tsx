@@ -118,7 +118,7 @@ export default function Home() {
             </SectionHeading>
           </Reveal>
           <p className="mx-auto mt-5 max-w-md text-bone-dim">
-            Open to new-grad roles and problems worth the effort.
+            Open to AI engineering roles, GenAI architecture, and hard problems worth solving.
           </p>
           <div className="mt-9 flex justify-center">
             <Magnetic>

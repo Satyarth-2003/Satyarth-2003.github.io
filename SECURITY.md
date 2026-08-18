@@ -8,7 +8,7 @@ security reports are welcome.
 
 Please do not open a public issue for security problems.
 
-Email **sunnypatel124555@gmail.com** with:
+Email **satyarth.s.2003@gmail.com** with:
 
 - a description of the issue and where it lives (URL, route, or file),
 - steps to reproduce or a proof of concept,
@@ -22,7 +22,7 @@ testing.
 ## Scope
 
 In scope: this repository's code, the contact API route, and the deployed site
-at https://www.sunnypatel.net.
+at https://satyarth-2003.github.io.
 
 Out of scope: third-party services the site links to or embeds (GitHub, Vercel,
 Firebase, Resend, Google reCAPTCHA), which run their own disclosure programs.

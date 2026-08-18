@@ -1,10 +1,9 @@
 /* TEAM */
-  Developer: Sunny Patel
-  Site: sunnypatel.net
-  GitHub: @sunnypatell
-  Location: Greater Toronto Area, Canada
+  Developer: Satyarth Prakash Srivastava
+  Site: satyarth-2003.github.io
+  GitHub: @Satyarth-2003
+  Location: Gurugram, India
 
 /* SITE */
-  Built by hand, no template.
   Stack: Next.js, React, TypeScript, Tailwind CSS, React Three Fiber, GSAP, Lenis
   Standards: responsive, keyboard-accessible, reduced-motion aware

@@ -35,7 +35,7 @@ export default function NotFound() {
         <div className="order-first sm:order-last">
           <Image
             src="/assets/thinking-bitmoji.webp"
-            alt="Sunny, thinking it over"
+            alt="Page not found"
             width={300}
             height={300}
             className="mx-auto w-40 select-none sm:w-full sm:max-w-[280px]"

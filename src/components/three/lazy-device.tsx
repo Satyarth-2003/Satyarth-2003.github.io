@@ -61,7 +61,7 @@ export function LazyDevice({ poster }: { poster: string }) {
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={poster}
-      alt="A 3D render of Sunny's desktop rig"
+      alt="A 3D render of the retro computer terminal"
       className="h-full w-full object-contain"
     />
   );

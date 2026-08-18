@@ -1,62 +1,66 @@
-// single source of truth. copy is researched against the real repos + live sites
-// and fact-checked: portfolio voice, irrejectable, 100% true. no em dashes.
+// single source of truth for Satyarth Prakash Srivastava's Portfolio
+// Researched against real production systems, GitHub repositories, and verifiable experience.
 
 export const profile = {
-  name: "Sunny Patel",
-  role: "Software Developer",
-  location: "Greater Toronto Area, Canada",
-  email: "sunnypatel124555@gmail.com",
-  phoneDisplay: "(437) 216-1611",
-  phoneHref: "+14372161611",
+  name: "Satyarth Prakash Srivastava",
+  role: "AI Engineer",
+  location: "Gurugram, India",
+  email: "satyarth.s.2003@gmail.com",
+  phoneDisplay: "+91 6392863687",
+  phoneHref: "+916392863687",
   resume: "/resume",
-  resumeFile: "/Sunny-Patel-Resume.pdf",
   socials: {
-    github: "https://github.com/sunnypatell",
-    linkedin: "https://www.linkedin.com/in/sunny-patel-30b460204/",
-    website: "https://www.sunnypatel.net/",
+    github: "https://github.com/Satyarth-2003",
+    linkedin: "https://www.linkedin.com/in/satyarth2003/",
+    twitter: "https://twitter.com/Satyarth_PS",
+    website: "https://satyarth-2003.github.io",
   },
   status: {
-    label: "Software Developer Intern",
-    org: "IBM",
-    note: "watsonx Workshop",
-    available: "Open to software roles",
+    label: "SDE-1 AI",
+    org: "Adda Education (Adda247)",
+    note: "GenAI & Agentic Systems",
+    available: "Open to AI & GenAI roles",
   },
-  headline: ["I build the whole stack,", "from the screen to the silicon."],
+  headline: [
+    "I build production GenAI systems,",
+    "from agentic pipelines to multimodal scale.",
+  ],
   intro:
-    "I build full-stack software **people actually use**, and I understand it **the whole way down**, to the systems most apps just sit on top of. Give me the hardest problem in your stack, the one that has to hold, and I'll **own it end to end**.",
+    "AI Engineer with production experience building **LLM-powered automation systems**, **GenAI pipelines**, and **agentic workflows at scale**. I engineer high-throughput, low-latency AI backends delivering measurable cost savings, precision scoring, and real-time multimodal intelligence.",
 } as const;
 
 export const about = {
-  lead: "I build software at every layer it lives on, from the screen people touch to the systems running quietly underneath.",
+  lead: "I architect AI systems that bridge cutting-edge LLM reasoning with high-throughput production infrastructure.",
   paragraphs: [
-    "I'm the developer you hand **the problem you're afraid to break**. Most of what I build is the thing other people lean on, so I learned early to ask the unglamorous question first: what happens when this is under real load, at 3am, with nobody watching. Four years in, I've shipped polished products people actually use and stayed with them long after launch, still cutting updates for tools I built years ago, long after anyone asked me to, because people quietly came to depend on them. **I don't ship and walk away**, because someone is counting on it to still be there next week.",
-    "That instinct came from carrying the parts most product developers never touch: the directories, networks, and automation a company quietly assumes will always work. I spent years living in that invisible layer, the one where doing the job perfectly means nobody ever knows you exist, and the only signal you get is silence when it holds and everything on fire the moment it doesn't. I automated the tedious parts until they ran themselves, and I learned what it really costs when that layer gives out and people suddenly can't work. Once you have been on the hook like that, deployment and failure and scale stop being someone else's job further down the line and become how you design from the first line. So when I tell you something will hold, **it isn't optimism**. It's having owned **the layer underneath**, and building everything above it knowing what breaks down there first.",
+    "I'm an AI Engineer specialized in **Generative AI, Agentic Workflows, and Multi-Modal Systems**. At Adda Education, I've designed and scaled production AI pipelines that automate core operations: architecting **ScriptIQ** to automate over 1,000+ educational scripts saving ₹60+ Lakhs annually, building **Gradi.AI** for multimodal video quality evaluation across 10,000+ instructional sessions, and delivering broadcast automations for 200+ channels that reduced production times from **30 minutes to 2–5 seconds** (a 6x throughput leap).",
+    "My engineering philosophy centers on **cost-efficiency, low-latency, and reliability**. When designing parallel agentic audit architectures, I scaled automated evaluations across **326,000+ audio calls** under strict API rate limits, achieving ~85% accuracy while slashing per-call costs by 58% and tripling speed. From sub-300ms real-time conversational voice agents to large-scale DynamoDB-to-BigQuery migrations reducing infrastructure costs by ~95%, I build end-to-end AI software that stands up under real-world production load.",
   ],
   now: [
-    "Building full-stack AI features on watsonx Workshop at IBM",
-    "Going deeper on low-level systems programming, closer to the hardware",
-    "Finishing Honours CS at Ontario Tech (President's List, Dean's Honours)",
+    "Architecting production GenAI pipelines and agentic audit architectures at Adda Education",
+    "Developing sub-300ms conversational voice AI agents with real-time reasoning and TTS synthesis",
+    "Expanding domain-aware RAG pipelines with multimodal computer vision feedback",
+    "Certified in Generative AI (IIT Guwahati) and Machine Learning (Google Cloud & Stanford)",
   ],
   facts: [
-    { k: "Based in", v: "Greater Toronto Area" },
-    { k: "Currently", v: "Software Developer Intern at IBM (watsonx Workshop)" },
-    { k: "Studying", v: "Honours CS, Ontario Tech" },
-    { k: "Focus", v: "Full-stack, cloud, systems" },
+    { k: "Based in", v: "Gurugram, India" },
+    { k: "Currently", v: "SDE-1 AI at Adda Education" },
+    { k: "Education", v: "B.E. (Hons.) CS, AI & ML" },
+    { k: "Focus", v: "GenAI, LLMs, Agentic Workflows, RAG" },
   ],
 } as const;
 
 export const capabilities = [
   {
-    title: "Product engineering",
-    body: "Real-time, type-safe web apps people use every day, taken from first pixel to production.",
+    title: "GenAI & Agentic Orchestration",
+    body: "Multi-agent workflows, LangChain and LangGraph orchestration, n8n automations, structured prompt engineering, and custom domain-aware RAG architectures.",
   },
   {
-    title: "Systems & infrastructure",
-    body: "Directories, networks, and automation kept reliable at scale, including a 3,000+ object M&A cutover with zero downtime.",
+    title: "Multimodal AI & Computer Vision",
+    body: "Real-time voice agents with sub-300ms latency, video quality evaluation pipelines, and OpenCV/MediaPipe emotion & gesture recognition systems.",
   },
   {
-    title: "Cloud & delivery",
-    body: "Docker and Kubernetes, CI/CD, and the automation that moves work from my machine to production safely and repeatably.",
+    title: "Scalable Production Backends",
+    body: "High-throughput FastAPI and WebSocket backends, Dockerized microservices, BigQuery analytics, and cost-optimized inference reducing cloud expenditure by up to 95%.",
   },
 ] as const;
 
@@ -74,57 +78,38 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    company: "IBM",
-    role: "Software Developer Intern",
-    location: "Markham, ON",
-    mode: "Hybrid",
-    start: "Jan 2026",
+    company: "Adda Education",
+    role: "SDE-1 AI",
+    location: "Gurugram, India",
+    mode: "On-site",
+    start: "Jul 2025",
     end: "Present",
     current: true,
-    summary: "Full-stack engineering on watsonx Workshop at IBM.",
-    bullets: [
-      "Building full-stack features on watsonx Workshop, across the interface and the services behind it.",
-    ],
-  },
-  {
-    company: "Canada's Wonderland",
-    role: "IT Technician",
-    location: "Vaughan, ON",
-    mode: "On-site",
-    start: "Jun 2023",
-    end: "Jan 2026",
     summary:
-      "Kept the devices, networks, and accounts running at Canada's largest theme park, and automated the tedious parts.",
+      "Architecting production GenAI pipelines, multimodal platforms, and large-scale agentic audit systems.",
     bullets: [
-      "Helped migrate 3,000+ directory objects during the Six Flags acquisition (hybrid Azure AD and on-prem), with no service interruption for users.",
-      "Wrote 10+ automation scripts that set up new computers and user accounts by themselves.",
-      "Managed company-wide accounts, access, and security policies across email, file shares, and internal apps.",
-      "Configured the phone and call-center systems, and kept the network healthy day to day.",
-    ],
-  },
-  {
-    company: "Mackenzie Health",
-    role: "System Support Specialist",
-    location: "Richmond Hill, ON",
-    mode: "On-site",
-    start: "Jan 2023",
-    end: "Aug 2023",
-    summary: "Rolled out and supported the bedside tablets patients use across the hospital.",
-    bullets: [
-      "Moved 400+ tablets to secure, centrally-managed iPads across hospital units.",
-      "Built an internal admin tool for managing app access and user roles.",
-      "Set up real-time voice communication for ER and nursing staff.",
+      "Architected ScriptIQ, an LLM-driven pipeline automating 1,000+ educational scripts/year, saving ₹60+ Lakhs via prompt-engineered multi-stage workflows.",
+      "Built Gradi.AI, a multimodal AI platform evaluating 10,000+ instructional videos for teaching quality using scalable ML inference pipelines.",
+      "Designed a parallel agentic audit architecture auditing 326,000+ calls at ~85% accuracy, cutting per-call cost by 58% and improving speed 3x under strict API rate limits.",
+      "Delivered YouTube broadcast automation for 200+ channels; cutting creation time from 30 min → 2–5 sec (6x throughput via parallel execution and caching).",
+      "Led DynamoDB → BigQuery migration achieving ~95% infra cost reduction while enabling large-scale analytics across production services.",
+      "Architected EduSkill (one of India's largest paid faculty training programs) and Campus Programs, integrating AI-based evaluation scoring to automate candidate assessments and generating over ₹70 Lakhs in revenue within 3 months.",
+      "Built early LLM-driven workflow components and GenAI pipelines later scaled into production across multiple business units.",
     ],
   },
 ];
 
 export const education = {
-  school: "Ontario Tech University",
-  program: "Honours BSc, Computer Science",
-  location: "Oshawa, ON",
-  start: "2022",
-  end: "Present",
-  points: ["President's List, Winter 2025", "Dean's Honours List, Fall 2024"],
+  school: "Chandigarh University",
+  program: "B.E., Computer Science (Hons.) | AI & ML Specialization",
+  location: "Mohali / Chandigarh, India",
+  start: "2021",
+  end: "2025",
+  points: [
+    "GPA: 8.29 / 10",
+    "50% Merit-Based Scholarship (CUCET)",
+    "Specialized in Artificial Intelligence, Deep Learning, and Distributed Computing Systems",
+  ],
 } as const;
 
 export type Project = {
@@ -140,268 +125,408 @@ export type Project = {
   image: string;
   featured: boolean;
   year: string;
-  team?: string; // shown when the build was genuinely shared. solo projects omit it.
-  active?: boolean; // still shipping releases / commits today
-  metrics?: { value: string; label: string; href?: string; live?: boolean }[]; // durable traction stats; live pulls the real number
-  badges?: { src: string; alt: string; href: string }[]; // live shields.io badges
+  team?: string;
+  active?: boolean;
+  metrics?: { value: string; label: string; href?: string; live?: boolean }[];
+  badges?: { src: string; alt: string; href: string }[];
 };
 
 export const projects: Project[] = [
   {
-    slug: "ats-screener",
-    name: "ATS Screener",
-    tagline: "Your resume vs. 6 real enterprise ATS engines",
+    slug: "interview-bar",
+    name: "Interview Bar",
+    tagline: "RAG-Powered Multimodal Interview Simulator",
     oneLiner:
-      "A free, open-source resume scanner that shows how Workday, Taleo, iCIMS, Greenhouse, Lever, and SuccessFactors each parse, filter, and score your resume.",
+      "An AI-powered interview simulator combining domain-aware RAG Q&A, 95% STT accuracy, and real-time facial emotion recognition in under 2 seconds.",
     summary:
-      "Most free ATS checkers hand you one invented score and paywall the rest. ATS Screener returns six honest scores from six real enterprise platforms, each modeling that vendor's own parser strictness, keyword strategy, and calibrated thresholds. Your resume is parsed entirely in your browser and never uploaded; only the extracted text is sent for AI scoring. A live counter has tracked 2,000+ people through it.",
-    detail: `Most free ATS checkers give you one invented number and lock the rest behind a paywall. ATS Screener does the honest, harder thing: it returns [six separate scores from six real enterprise platforms](https://ats-screener.vercel.app/docs/platforms/overview/), each tuned to how that vendor actually parses, filters, and ranks a resume.
+      "Interview Bar is an end-to-end AI platform revolutionizing candidate interview preparation. It features a domain-specific retrieval-augmented generation (RAG) pipeline for context-aware Q&A, speech-to-text response analysis, and computer vision emotion classification across 7 distinct states with 90% precision, delivering actionable multimodal feedback.",
+    detail: `Preparing for high-stakes technical interviews requires both domain depth and non-verbal communication finesse. Interview Bar bridges both by providing a fully multimodal AI interviewer that evaluates spoken answers, technical accuracy, and facial expressions in real time.
 
-Resumes (PDF or DOCX) are parsed fully client-side in a Web Worker with [\`pdfjs-dist\`](https://github.com/mozilla/pdf.js) and [\`mammoth\`](https://github.com/mwilliamson/mammoth.js), so the file itself never leaves the browser, only the extracted text is sent on. A custom NLP layer (tokenizer, TF-IDF, synonyms, and a multi-industry skills taxonomy) pulls sections, skills, and dates out of raw text.
+The system integrates a custom [LangChain](https://www.langchain.com/) retrieval-augmented generation (RAG) architecture that indexes domain-specific question banks and evaluation criteria. Candidate speech is transcribed using high-precision Speech-to-Text pipelines achieving **95% accuracy**, evaluated for semantic relevance, clarity, and completeness in **under 2 seconds**.
 
-A deterministic rule engine then scores against all six platform profiles, weighting formatting, keyword match, sections, experience, education, and quantification, plus per-platform quirks, and switching between exact, fuzzy, and semantic keyword matching to mirror how each real system behaves. On top of it sits a cross-provider LLM chain, [Gemma 3 27B](https://ai.google.dev/gemma/docs/core) on Google falling back to [Llama 3.3 70B](https://console.groq.com/docs/models) on Groq, with the rule engine as a final fallback so the app keeps working even when every model provider is down.
-
-Auth and storage adapt to where it runs: Firebase and Firestore for the hosted build, anonymous localStorage for self-hosters, or on-prem LDAP and Active Directory. A live, Firestore-backed counter on the landing page has tracked **more than 2,000 people** through it so far, and the full behavior is written up in its own [documentation site](https://ats-screener.vercel.app/docs).`,
+Simultaneously, a lightweight computer vision pipeline built with [OpenCV](https://opencv.org/) and [MediaPipe](https://developers.google.com/mediapipe) captures webcam frames to classify facial emotion and engagement levels across 7 classes (neutral, confident, nervous, engaged, confused, stressed, enthusiastic) with **90% precision**. The resulting multimodal telemetry is aggregated into an interactive post-session score breakdown.`,
     highlights: [
-      "Six platform profiles with [their own weights and thresholds](https://ats-screener.vercel.app/docs/scoring/methodology/); literal matching for Taleo, semantic for Greenhouse and Lever",
-      "Web Worker parsing (`pdfjs-dist`, `mammoth`) keeps the file on-device, only the extracted text is sent",
-      "Cross-provider AI chain (Gemma 3 27B, Llama 3.3 70B, rule-engine fallback) behind a prompt cache and per-IP rate limiting",
-      "Hand-built NLP instead of a paid parser: tokenizer, TF-IDF, synonyms, multi-industry skills taxonomy",
-      "One codebase, three zero-cost deploys: Firebase, anonymous localStorage, or on-prem [Active Directory](https://ats-screener.vercel.app/docs/self-hosting/active-directory/)",
+      "Domain-aware RAG Q&A pipeline delivering real-time semantic evaluation in <2 seconds",
+      "High-accuracy Speech-to-Text integration achieving 95% transcription precision",
+      "Computer vision emotion classification across 7 facial states at 90% precision using OpenCV + MediaPipe",
+      "Interactive candidate dashboard with granular delivery metrics, speech pacing, and conceptual scoring",
+      "Low-latency streaming architecture designed for interactive interview sessions",
     ],
-    stack: ["SvelteKit", "TypeScript", "pdfjs-dist", "mammoth", "Custom NLP", "Gemma 3 27B", "Llama 3.3 70B", "Firebase", "Firestore", "Astro Starlight"],
+    stack: [
+      "LangChain",
+      "OpenAI API",
+      "Python",
+      "OpenCV",
+      "MediaPipe",
+      "Speech-to-Text",
+      "React",
+      "FastAPI",
+    ],
     links: {
-      live: "https://ats-screener.vercel.app",
-      repo: "https://github.com/sunnypatell/ats-screener",
-      docs: "https://ats-screener.vercel.app/docs",
+      repo: "https://github.com/Satyarth-2003/Interview-Bar",
     },
-    image: "/assets/shots/ats-screener.webp",
+    image: "/assets/shots/interview-bar.webp",
+    featured: true,
+    year: "2025",
+    active: true,
+    metrics: [
+      { value: "95%", label: "STT accuracy" },
+      { value: "<2s", label: "multimodal feedback" },
+      { value: "90%", label: "emotion precision" },
+    ],
+  },
+  {
+    slug: "conversational-voice-ai",
+    name: "Conversational Voice AI Agent",
+    tagline: "Low-latency voice reasoning with sub-300ms response",
+    oneLiner:
+      "A real-time bidirectional conversational AI agent engineered with GPT-4.1, WebSocket audio streaming, and ElevenLabs TTS synthesis.",
+    summary:
+      "A production-grade conversational voice AI agent delivering seamless human-like interactions with sub-300ms end-to-end latency. Combines streaming speech recognition, fast LLM reasoning, multilingual prompt orchestration, and high-fidelity text-to-speech audio synthesis over duplex WebSockets.",
+    detail: `Traditional conversational AI agents suffer from jarring latency pauses between user speech and generated voice response. This project eliminates that friction by building an ultra-low latency, bidirectional voice agent pipeline operating with **sub-300ms latency**.
+
+The architecture uses full-duplex [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) to stream raw audio chunks from the client to a Python/FastAPI backend. Incoming audio is processed by streaming speech-to-text with voice activity detection (VAD) and interrupt handling, allowing users to naturally interrupt the agent mid-sentence.
+
+Reasoning is powered by [GPT-4.1](https://openai.com) with structured system prompts and token streaming directly into [ElevenLabs](https://elevenlabs.io) WebSocket synthesis endpoints. Sentences and clauses are synthesized incrementally as tokens generate, enabling instant audio playback with natural cadence and multilingual adaptability.`,
+    highlights: [
+      "Sub-300ms end-to-end turnaround from user utterance to streaming audio response",
+      "Duplex WebSocket streaming architecture with Voice Activity Detection (VAD) and barge-in interruption",
+      "Chunked token-to-speech pipelining: audio synthesis begins on the first generated clause",
+      "Multilingual prompt engineering ensuring consistent persona, pacing, and tone across topics",
+    ],
+    stack: [
+      "GPT-4.1",
+      "ElevenLabs API",
+      "WebSocket",
+      "LangChain",
+      "Python",
+      "FastAPI",
+      "AsyncIO",
+    ],
+    links: {
+      repo: "https://github.com/Satyarth-2003",
+    },
+    image: "/assets/shots/conversational-voice-ai.webp",
     featured: true,
     year: "2026",
     active: true,
     metrics: [
-      { value: "2,000+", label: "users served", href: "https://ats-screener.vercel.app", live: true },
-      { value: "6", label: "real ATS engines" },
+      { value: "<300ms", label: "latency" },
+      { value: "Full Duplex", label: "WebSocket streaming" },
     ],
   },
   {
-    slug: "axelot",
-    name: "Axelot",
-    tagline: "Conflict-free real-time docs for developers",
+    slug: "scriptiq-automation",
+    name: "ScriptIQ & Broadcast Automation",
+    tagline: "LLM-driven educational workflows saving ₹60+ Lakhs",
     oneLiner:
-      "A real-time collaborative writing platform where developers co-edit rich technical documents with live cursors, AI assistance, and one-click publishing.",
+      "An automated LLM scripting pipeline producing 1,000+ educational scripts/yr and slashing channel broadcast creation from 30 mins to 2–5 seconds.",
     summary:
-      "Axelot lets developers co-edit technical documents in real time and publish them as a public portfolio. A full TipTap editor (tables, KaTeX, Mermaid, syntax-highlighted code) is bound to a Yjs CRDT and synced peer-to-peer over WebRTC, with Firestore for durable snapshots. Multi-provider auth, in-editor AI, and a scheduled trending feed round it out.",
-    detail: `Most collaborative editors either lock you into one vendor or break the moment two people type at once. Axelot does the hard version: many writers editing the same technical document at the same time, conflict-free, with live presence.
+      "ScriptIQ is a multi-stage LLM workflow built at Adda Education to automate educational script creation, pedagogy alignment, and broadcast orchestration across 200+ channels, achieving 6x throughput via parallel execution, intelligent caching, and multi-step prompt engineering.",
+    detail: `At scale, generating hundreds of high-quality educational broadcast scripts and video outlines manually creates significant bottlenecks and costs. ScriptIQ was architected as an automated, multi-stage LLM production pipeline to eliminate these inefficiencies.
 
-A [TipTap](https://tiptap.dev/docs) rich-text editor is bound to a [Yjs](https://docs.yjs.dev) CRDT so concurrent edits converge on their own. Documents sync directly between browsers over a [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) peer mesh, with Firestore holding durable snapshots and metadata, keeping live editing fast while still persisting state.
+The pipeline breaks down complex curriculum topics into structured knowledge graphs, drafts narrative scripts with verified pedagogy constraints, and conducts automated self-consistency audits using specialized prompting techniques. The system saved **over ₹60 Lakhs in operational overhead within its first year** while generating 1,000+ complete scripts.
 
-The hard part is the seams. NextAuth handles Google, GitHub, and bcrypt-hashed email/password sign-in with Zod validation and enforced email verification, then mints a Firebase custom token server-side into the session so the browser can talk to Firestore securely. A trending feed blends logarithmic view scaling with recency and activity decay, recomputed by a \`CRON_SECRET\`-protected Vercel cron job that prioritizes active documents. AI editing actions stream completions through an [OpenRouter](https://openrouter.ai/docs) proxy.
-
-The result is a production-deployed platform that ships as a multi-stage Docker image. Axelot was a collaborative two-person build, and I owned core parts of the system end to end.`,
+In addition, I designed and deployed a YouTube broadcast automation engine supporting 200+ active channels. By leveraging asynchronous parallel execution, asset pre-computation, and intelligent caching layers, video package setup times plunged from **30 minutes down to 2–5 seconds** per broadcast.`,
     highlights: [
-      "Conflict-free concurrent editing: a Yjs CRDT bound to TipTap, synced browser-to-browser over a WebRTC peer mesh",
-      "Server-side Firebase custom tokens minted into the NextAuth session, so the browser hits Firestore under real security rules",
-      "Trending feed weighting logarithmic views against recency and activity decay, recomputed by a `CRON_SECRET`-guarded cron",
-      "In-editor AI streaming token by token through an OpenRouter proxy; tables, KaTeX, Mermaid, and Shiki code",
-      "Durable Firestore snapshots behind the live mesh, shipped as a multi-stage Docker image",
+      "Automated 1,000+ educational scripts/year saving ₹60+ Lakhs in operational costs",
+      "Multi-stage prompt-engineered verification ensuring curriculum fidelity and tone compliance",
+      "Cut broadcast creation time from 30 minutes to 2–5 seconds across 200+ YouTube channels",
+      "Parallel task queuing and Redis caching yielding 6x throughput gains under peak load",
     ],
-    stack: ["Next.js", "React", "TypeScript", "TipTap", "Yjs (CRDT)", "WebRTC", "Firebase", "NextAuth", "OpenRouter", "Docker"],
-    links: { live: "https://www.axelot.io", repo: "https://github.com/sunnypatell/axelot" },
-    image: "/assets/shots/axelot.webp",
-    featured: false,
-    year: "2025",
-    team: "Collaborative two-person build",
-  },
-  {
-    slug: "sunnify",
-    name: "Sunnify",
-    tagline: "Spotify playlists to tagged local audio",
-    oneLiner:
-      "A cross-platform desktop app that turns Spotify playlists, albums, and tracks into tagged local audio files, no Spotify account or API key required.",
-    summary:
-      "Sunnify is an open-source desktop app (macOS, Windows, Linux) that saves Spotify playlists as local audio in MP3, M4A, FLAC, Opus, or WAV, embedding cover art and tags for MP3, M4A, and FLAC. It reads track data from Spotify's public embed pages with no login, locates the matching audio via yt-dlp, and transcodes with a bundled FFmpeg. It handles 1000+ track playlists, resumes interrupted runs, and ships signed binaries with full supply-chain provenance. Still actively maintained.",
-    detail: `Spotify has no "download my playlist" path, and the usual scripts break once a playlist passes a few hundred tracks or hits a rate limit. Sunnify handles the full pipeline from URL to tagged file.
-
-The hard part is the data layer. Instead of an official API, it parses the \`__NEXT_DATA__\` JSON blob from Spotify's public embed pages, using layered path resolution and recursive fallbacks to survive the structural drift Spotify's A/B tests introduce. Embed pages cap near 100 tracks, so larger playlists fall back to Spotify's internal \`spclient\` API with a short-lived anonymous token to recover canonical order.
-
-Matching is where correctness lives. Each track is scored against YouTube candidates on normalized title, artist, and a duration tolerance, so it grabs the right recording instead of a remix or live cut, with multi-client and query-widening fallbacks when a search comes back empty. Around that: a 4-worker thread pool, 429-aware exponential backoff, an append-only JSONL manifest for resume across sessions, and cooperative cancellation.
-
-The suite runs 160+ pytest cases on every push across a 15-job matrix (3 OSes x Python 3.9-3.13), and releases ship [SLSA Build Level 3](https://slsa.dev) provenance, [CycloneDX](https://cyclonedx.org) SBOMs, and [Sigstore](https://www.sigstore.dev) signatures.`,
-    highlights: [
-      "No-login track data from Spotify's `__NEXT_DATA__` embed blob, with recursive fallbacks that ride out A/B drift",
-      "`spclient` API fallback past the ~100-track embed cap, recovering canonical order on 1000+ track playlists",
-      "Right-recording matching on normalized title, artist, and duration tolerance, with query-widening on empty hits",
-      "Built for long runs: 4-worker pool, 429-aware backoff, JSONL resume manifest, cooperative cancellation",
-      "Release rigor most side projects skip: 160+ tests on 15 jobs, plus [SLSA L3](https://slsa.dev) provenance, [CycloneDX](https://cyclonedx.org) SBOMs, and [Sigstore](https://www.sigstore.dev) signing",
+    stack: [
+      "Python",
+      "OpenAI",
+      "LangChain",
+      "FastAPI",
+      "Redis",
+      "Docker",
+      "GCP",
+      "YouTube API",
     ],
-    stack: ["Python", "PyQt5", "yt-dlp", "FFmpeg", "Mutagen", "pytest", "GitHub Actions", "SLSA / Sigstore", "Homebrew"],
-    links: {
-      live: "https://sunnify-spotify-downloader.vercel.app/",
-      repo: "https://github.com/sunnypatell/sunnify-spotify-downloader",
-    },
-    image: "/assets/sunnify.webp",
+    links: {},
+    image: "/assets/shots/scriptiq-automation.webp",
     featured: true,
+    year: "2025",
+    active: true,
+    metrics: [
+      { value: "₹60L+", label: "cost savings" },
+      { value: "2–5s", label: "creation time" },
+      { value: "200+", label: "channels automated" },
+    ],
+  },
+  {
+    slug: "cascadegen",
+    name: "CascadeGen",
+    tagline: "Multi-Modal Diffusion Model for Generative Media",
+    oneLiner:
+      "A unified multi-modal diffusion architecture generating high-fidelity images, video clips, and synthesized audio from cross-modal conditioning.",
+    summary:
+      "CascadeGen explores unified generative diffusion across multiple modalities. It accepts text, image, or audio prompts to generate and transform visual and acoustic content using deep latent diffusion pipelines and cross-attention conditioning mechanisms.",
+    detail: `Generative models are typically isolated by modality (image, video, or audio). CascadeGen investigates unified cross-modal generation by leveraging cascaded latent diffusion representations conditioned on multimodal embeddings.
+
+Built in Python using PyTorch and modern transformer backbones, CascadeGen processes cross-modal inputs through joint embedding projections. The system applies progressive latent upsampling to synthesize high-resolution images, short video sequences, and matching acoustic waveforms conditioned on input text or reference imagery.`,
+    highlights: [
+      "Unified latent diffusion pipeline supporting cross-modal text, image, and audio conditioning",
+      "Cascaded upscaling architecture ensuring crisp high-frequency detail generation",
+      "Modular PyTorch inference engine with optimized GPU memory footprint",
+    ],
+    stack: ["Python", "PyTorch", "Diffusion Models", "Transformers", "OpenCV", "JavaScript"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/CascadeGen-Multi-Modal-Diffusion-Model-for-Image-Video-and-Audio-Generation",
+    },
+    image: "/assets/shots/cascadegen.webp",
+    featured: false,
     year: "2024",
-    active: true,
-    badges: [
-      {
-        src: "https://img.shields.io/github/stars/sunnypatell/sunnify-spotify-downloader?style=flat&label=stars&color=d9663d&labelColor=15191c",
-        alt: "GitHub stars",
-        href: "https://github.com/sunnypatell/sunnify-spotify-downloader/stargazers",
-      },
-      {
-        src: "https://img.shields.io/github/downloads/sunnypatell/sunnify-spotify-downloader/total?style=flat&label=downloads&color=d9663d&labelColor=15191c",
-        alt: "Total downloads",
-        href: "https://github.com/sunnypatell/sunnify-spotify-downloader/releases",
-      },
-    ],
   },
   {
-    slug: "netdash",
-    name: "Netdash",
-    tagline: "40+ network tools in one app",
+    slug: "deepdetect",
+    name: "DeepDetect",
+    tagline: "Real-Time Fraud Detection & Risk Analytics Dashboard",
     oneLiner:
-      "A cross-platform network engineering workbench: 40+ tools, RFC-correct IP math in the browser, and a native Electron backend for real ping, traceroute, and port scanning.",
+      "A responsive financial fraud detection frontend and analytics dashboard integrated with machine learning anomaly detection backends.",
     summary:
-      "Netdash folds 40+ network engineering utilities into one web and desktop app: subnet and VLSM planning, IPv4/IPv6 calculators, multi-vendor config generation, IP-conflict detection, and DNS-over-HTTPS. Every calculation runs client-side with RFC-correct algorithms; the Electron build adds a Node.js backend for raw ICMP ping, traceroute, and port scanning that browsers can't do. Signed-in users get Firestore project sync with role-based sharing.",
-    detail: `Network engineers stitch together a dozen disconnected utilities for routine work: subnetting, VLSM planning, config generation, DNS lookups, conflict detection. Netdash folds 40+ of them into one privacy-first app that runs in the browser or as a native desktop build.
+      "DeepDetect provides financial security teams with real-time risk scores, anomaly visualizations, and transaction inspection tools. Built with TypeScript and React, it consumes ML risk scoring APIs to flag suspicious patterns and minimize false positives.",
+    detail: `Financial fraud occurs at microsecond scales, requiring intuitive interfaces that present complex ML risk indicators clearly to fraud analysts. DeepDetect was developed as a modern, high-speed fraud analytics dashboard.
 
-The hard part is correctness. The IP math is RFC-correct, not approximate: bitwise IPv4 subnetting with [RFC 3021](https://www.rfc-editor.org/rfc/rfc3021) /31 point-to-point handling, IPv6 expansion with longest-run zero compression and solicited-node multicast derivation, CIDR summarization with boundary alignment, and a first-fit-descending VLSM allocator that reports utilization and slack.
-
-The DNS engine speaks DNS-over-HTTPS to five providers, parsing both JSON and dns-message wire formats, with a TTL-aware LRU cache and DNSSEC AD-flag checks. RTT testing uses the Performance API for median, p95, and jitter.
-
-Browsers can't send raw ICMP, so the Electron build adds a Node.js backend behind a context-isolated IPC bridge, with hostname and port validation that blocks command injection before any shell call. Firestore rules enforce owner/editor/admin tiers and bar collaborators from changing ownership.`,
+The application visualizes incoming transaction streams, anomaly likelihood scores, and risk classifications derived from trained classification models. Analysts can inspect transaction graph relationships, review flagged behavioral anomalies, and trigger automated account restrictions or secondary verification workflows.`,
     highlights: [
-      "RFC-correct IP math: [RFC 3021](https://www.rfc-editor.org/rfc/rfc3021) /31 subnetting, IPv6 zero-compression, CIDR summarization, first-fit-descending VLSM",
-      "[DNS-over-HTTPS](https://www.rfc-editor.org/rfc/rfc8484) to 5 providers, JSON and wire-format parsing, TTL-aware LRU cache, [DNSSEC](https://www.rfc-editor.org/rfc/rfc4035) AD-flag checks",
-      "Native Electron backend over a context-isolated IPC bridge for real ICMP ping, traceroute, and port scans",
-      "Hostname and port validation that blocks command injection before any shell call",
-      "Firestore owner/editor/admin tiers; Cisco IOS and Aruba CX config generation; WCAG 2.2 AA",
+      "Real-time transaction anomaly monitoring and automated risk tier categorization",
+      "Interactive data visualizations and inspection tooling for fraud investigation teams",
+      "Modular TypeScript architecture ready for plug-and-play REST and WebSocket ML APIs",
     ],
-    stack: ["TypeScript", "Next.js", "React", "Electron", "Node.js", "Firebase", "Tailwind CSS", "DNS-over-HTTPS"],
+    stack: ["TypeScript", "React", "Tailwind CSS", "REST APIs", "Data Visualization", "Chart.js"],
     links: {
-      live: "https://netdash-toolkit.vercel.app/",
-      repo: "https://github.com/sunnypatell/netdash-toolkit",
+      repo: "https://github.com/Satyarth-2003/DeepDetect--Fraud-Detection-Dashboarda",
     },
-    image: "/assets/shots/netdash.webp",
-    featured: true,
-    year: "2025",
-    active: true,
+    image: "/assets/shots/deepdetect.webp",
+    featured: false,
+    year: "2024",
   },
   {
-    slug: "securebank",
-    name: "SecureBank",
-    tagline: "A bank built to be hacked",
+    slug: "cursor-gesture-control",
+    name: "Contactless Hand Gesture Controller",
+    tagline: "Webcam-based OS navigation via MediaPipe & Computer Vision",
     oneLiner:
-      "A dockerized, deliberately-vulnerable Next.js banking app that teaches SQL injection and broken-access-control through five graded, hands-on challenges.",
+      "A modular computer vision system mapping real-time webcam hand gestures to OS cursor control, clicks, scrolling, volume, and brightness adjustments.",
     summary:
-      "SecureBank CTF is a full-stack banking simulation engineered to be broken on purpose. It behaves like a real app (login, transfers, transaction search, feedback) but hides production-shaped flaws: a double-decode injection bypass, stacked-query privilege escalation, and two access-control backdoors. Five documented challenges each ship a difficulty rating, objective, and full writeup, packaged behind one Docker command.",
-    detail: `Most AppSec training is either toy "spot the bug" snippets or sprawling labs nobody can stand up locally. SecureBank CTF lands in between: a believable Next.js / React banking app on a SQLite backend with no ORM, so every query path is hand-written and every vulnerability is deliberate, not accidental.
+      "A contactless human-computer interaction tool using MediaPipe Hand Landmark detection and OpenCV. It recognizes gestures such as pinch, fist, and V-sign to trigger smooth mouse navigation and system setting modifications without hardware peripherals.",
+    detail: `Touchless interaction enables sterile computing environments, accessibility accommodations, and intuitive natural user interfaces. This project builds a low-latency gesture recognition pipeline running directly on standard consumer webcams.
 
-The engineering is in making the flaws solvable but non-trivial. The login route strips SQL metacharacters with a regex, then URL-decodes the input twice, so a double-encoded payload slips past the filter and injects. The feedback endpoint routes its INSERT through SQLite's multi-statement exec instead of a prepared statement, turning a comment box into stacked-query privilege escalation, while the DELETE path stays parameterized. Two access-control backdoors round it out: an \`x-dev-mode\` header that drops the per-user WHERE clause, and a maintenance route that runs raw SQL only under a debug flag on a specific weekday.
-
-Each challenge ships an objective and full writeup, and the whole lab runs from one multi-stage Docker image with a seed-snapshot database that persists progress across restarts. SecureBank was a five-person university project: I authored the privilege-escalation challenge and was the largest contributor to the application and its Docker packaging, while four teammates each built a graded challenge of their own.`,
+Using Google's MediaPipe Hands, 21 3D hand landmarks are extracted per frame and fed into a gesture classifier. Coordinate smoothing algorithms eliminate jitter, translating finger distances and spatial geometry into precise mouse cursor movements, click triggers, multi-directional scrolling, and system volume/brightness scaling.`,
     highlights: [
-      "Hand-written, ORM-free SQLite query paths (Next.js, React, better-sqlite3) so every flaw is deliberate",
-      "Filter-then-double-decode login bypass: a regex strips metacharacters, then double URL-decode reintroduces them",
-      "Stacked-query privilege escalation via the feedback INSERT, with the DELETE path left parameterized as a control",
-      "Two access-control backdoors: an `x-dev-mode` header and a weekday-gated debug route running raw SQL",
-      "Five graded challenges with writeups, one-command multi-stage Docker, seed-snapshot DB that persists progress",
+      "Real-time 21-point hand landmark tracking running at 30+ FPS on consumer CPUs",
+      "Smooth cursor interpolation and jitter suppression filters for natural control",
+      "Gesture recognition mappings for mouse clicks, scrolling, brightness, and volume",
     ],
-    stack: ["Next.js", "React", "TypeScript", "SQLite", "better-sqlite3", "Docker"],
-    links: { repo: "https://github.com/sunnypatell/securebank-ctf" },
-    image: "/assets/shots/securebank.webp",
+    stack: ["Python", "OpenCV", "MediaPipe", "PyAutoGUI", "NumPy"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/Cursor-Movement-Using-Hand-Movements",
+    },
+    image: "/assets/shots/cursor-gesture-control.webp",
     featured: false,
-    year: "2025",
-    team: "Five-person team at Ontario Tech",
+    year: "2024",
   },
   {
-    slug: "knifethrow",
-    name: "KnifeThrow",
-    tagline: "An arcade game, no engine, pure Java",
+    slug: "smart-home-security",
+    name: "Smart Home Security System",
+    tagline: "Facial-Recognition Access Control for Smart Homes",
     oneLiner:
-      "A complete 2D knife-throwing arcade game built from scratch on raw Java Swing/AWT, with a hand-rolled game loop, collision, particles, sound, and a persistent shop.",
+      "A facial recognition security system that authenticates residents in real time and integrates with Firebase for centralized access logging.",
     summary:
-      "KnifeThrow is a 2D arcade game written entirely in Java Swing and AWT with no game engine underneath, every system a player takes for granted, from the game loop to collision to audio, hand-built. I wrote it by hand in grade 12, years before AI could write code. Player profiles persist to disk and gate a knife shop that unlocks at score milestones, and the single-file capstone was later refactored into eight documented classes with generated Javadoc and a UML diagram.",
-    detail: `I built KnifeThrow by hand in grade 12, years before AI could write code for you, roughly **5,000 lines of raw Java** with no game engine underneath. Every subsystem a player takes for granted, the game loop, collision, rendering, audio, had to be designed from scratch on [Swing and AWT](https://docs.oracle.com/javase/tutorial/uiswing/).
+      "A computer vision access-control system built to enhance smart home security by recognizing authorized users via facial encoding and triggering real-time authentication decisions, backed by a Firebase database.",
+    detail: `Traditional smart home security still relies heavily on PINs and physical keys. This project explores facial recognition as a frictionless, more secure alternative for controlling access to smart homes.
 
-The core is a fixed-step loop on a 10ms Swing Timer, keeping movement and physics consistent regardless of how fast a machine renders, with antialiased Graphics2D drawing on top. Collision is rectangle-intersection between thrown knives and targets; impacts kick off a particle system and screen shake, and WAV effects play through Java's AudioSystem and Clip. A custom pixel font is loaded at runtime and registered with the local GraphicsEnvironment.
-
-The progression layer is the ambitious part. Player profiles (name, high score, control scheme, selected knife) persist to disk and gate a knife shop that unlocks blades at score milestones. A signature EMP ability charges as you score, then runs a Euclidean proximity check to flip nearby enemy knives back at their source.
-
-After the original single-file build, the game was refactored into eight documented classes under a Maven-style source layout, with generated Javadoc and a UML class diagram.`,
+The system encodes known residents' faces into a local face-encoding cache, then continuously compares live webcam frames against these encodings in real time. Recognized users trigger authorized-entry events, while unrecognized faces are logged for review. All access events and encodings are synced through Firebase, allowing centralized management across multiple entry points.`,
     highlights: [
-      "Grade-12 capstone, ~5,000 lines of raw Java [Swing/AWT](https://docs.oracle.com/javase/tutorial/uiswing/), no engine, written before AI could code",
-      "Fixed-step 10ms Swing Timer loop for frame-rate-independent physics, antialiased Graphics2D on top",
-      "Disk-persistent player profiles gating a knife shop that unlocks blades at score milestones",
-      "Signature EMP ability: a Euclidean proximity check flips nearby enemy knives, with particles and screen shake",
-      "Refactored from one file into eight documented classes with generated Javadoc and a UML diagram",
+      "Real-time facial recognition and encoding pipeline for resident authentication",
+      "Firebase-backed data layer for access logs and encoding storage",
+      "Modular scripts for enrolling new residents and managing the recognition database",
     ],
-    stack: ["Java SE", "Swing / AWT", "Graphics2D", "javax.sound.sampled", "Javadoc"],
-    links: { repo: "https://github.com/sunnypatell/KnifeThrow" },
-    image: "/assets/knifethrow.webp",
+    stack: ["Python", "OpenCV", "face_recognition", "Firebase"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/Smart-Home-Security-System",
+    },
+    image: "/assets/shots/smart-home-security.webp",
     featured: false,
-    year: "2022",
+    year: "2023",
+  },
+  {
+    slug: "eye-tracking-driving-simulator",
+    name: "Eye-Tracking in Driving Simulators",
+    tagline: "GSoC 2024 — AI/ML Driver Safety Analytics",
+    oneLiner:
+      "A Google Summer of Code 2024 project analyzing driver behavior and risk using eye-tracking and vehicle telemetry from driving simulator sessions.",
+    summary:
+      "Built as part of GSoC 2024, this project applies computer vision and statistical analysis to driving simulator footage and telemetry, detecting lane departures, harsh driving events, and computing risk and time-to-collision metrics from driver eye and vehicle behavior.",
+    detail: `Driving simulators generate rich behavioral data, but turning raw footage and telemetry into actionable safety insight requires dedicated tooling. This GSoC 2024 project builds that analysis layer.
+
+Using OpenCV, simulator video is processed frame-by-frame to extract steering angles and detect lane departures, while a companion notebook performs statistical analysis over driving telemetry — identifying harsh acceleration, braking, and sharp turns, and computing time-to-collision (TTC) values. The result is a set of heatmaps and risk scores visualizing driver input intensity and safety-relevant events across a session.`,
+    highlights: [
+      "Frame-level steering angle extraction and lane-departure detection via OpenCV",
+      "Statistical detection of harsh acceleration, braking, and sharp-turn events",
+      "Time-to-collision (TTC) computation and driver risk scoring",
+      "Heatmap visualizations of steering, acceleration, and braking intensity over time",
+    ],
+    stack: ["Python", "OpenCV", "Pandas", "Jupyter Notebook"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/Eye-Tracking-Data-in-Driving-Simulator",
+    },
+    image: "/assets/shots/eye-tracking-driving.webp",
+    featured: false,
+    year: "2024",
+  },
+  {
+    slug: "linguasynth",
+    name: "LinguaSynth",
+    tagline: "Dialogflow-Powered Conversational NLP Chatbot",
+    oneLiner:
+      "An NLP chatbot built on Dialogflow with a FastAPI backend and SQL-backed storage, designed for natural, intent-driven conversations.",
+    summary:
+      "LinguaSynth is a conversational chatbot leveraging Dialogflow's intent and entity recognition to understand user input and generate relevant responses, served through a FastAPI backend with a lightweight HTML/CSS frontend.",
+    detail: `LinguaSynth pairs Google's Dialogflow NLU engine with a custom backend to deliver natural, intent-aware conversations. Dialogflow handles intent classification and entity extraction from user utterances, while a FastAPI service manages business logic, session state, and persistence.
+
+Conversation data and configured intents are backed by a SQL database, and a simple HTML/CSS frontend provides a chat interface for end users. The architecture keeps NLU, backend logic, and presentation cleanly separated across dedicated directories.`,
+    highlights: [
+      "Intent and entity recognition via Dialogflow for natural conversation flow",
+      "FastAPI backend handling conversation logic and session management",
+      "SQL-backed storage for intents, entities, and conversation history",
+      "Lightweight HTML/CSS chat frontend integrated with the backend API",
+    ],
+    stack: ["Python", "Dialogflow", "FastAPI", "SQL", "HTML/CSS"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/LinguaSynth",
+    },
+    image: "/assets/shots/linguasynth.webp",
+    featured: false,
+    year: "2023",
+  },
+  {
+    slug: "bw-image-colorizer",
+    name: "Black & White Image Colorizer",
+    tagline: "CNN-Based Grayscale-to-Color Image Restoration",
+    oneLiner:
+      "A CLI tool that colorizes grayscale photos using pre-trained ECCV16 and SIGGRAPH17 convolutional models, displaying results side by side.",
+    summary:
+      "A Python script that restores color to black-and-white images using two pre-trained CNN colorization models — ECCV 2016 and SIGGRAPH 2017 — comparing the original, grayscale, and colorized outputs.",
+    detail: `Colorizing black-and-white photography is a classic computer vision restoration problem. This tool wraps two established pre-trained CNN colorization models — ECCV 2016 and SIGGRAPH 2017 — behind a simple command-line interface.
+
+Given an input image, the script converts it to grayscale, runs it through both pre-trained models, and displays the original, grayscale, and colorized versions side by side for comparison. Each model's output is saved separately as a PNG, making it easy to evaluate colorization quality across approaches.`,
+    highlights: [
+      "Dual-model colorization pipeline using ECCV16 and SIGGRAPH17 pre-trained CNNs",
+      "Argparse-driven CLI for flexible, user-defined image inputs",
+      "Side-by-side comparison view of original, grayscale, and colorized outputs",
+    ],
+    stack: ["Python", "OpenCV", "Convolutional Neural Networks"],
+    links: {
+      repo: "https://github.com/Satyarth-2003/Black-and-White-Image-Colorizer",
+    },
+    image: "/assets/shots/bw-colorizer.webp",
+    featured: false,
+    year: "2023",
   },
 ];
 
-// projects with a public web deploy get a url bar in the window chrome
-export const WEB_PROJECTS = ["ats-screener", "axelot", "netdash"];
+export const WEB_PROJECTS = ["interview-bar", "conversational-voice-ai", "scriptiq-automation"];
 
-// display order for the featured projects on the home and projects pages
-export const FEATURED_ORDER = ["ats-screener", "sunnify", "netdash"];
+export const FEATURED_ORDER = [
+  "interview-bar",
+  "conversational-voice-ai",
+  "scriptiq-automation",
+];
 
 export const research = {
-  title: "When Semantic Caches Lie",
+  title: "Parallel Agentic Audits & High-Throughput LLM Systems",
   subtitle:
-    "Why one similarity threshold cannot make an LLM cache both safe and useful across domains",
-  byline: "Independent research, sole author",
-  year: "2026",
-  pages: 21,
+    "Architecture and optimization strategies for scaling multi-agent evaluations across 326,000+ real-world audio streams under strict rate and cost constraints",
+  byline: "Production Engineering & Research at Adda Education",
+  year: "2025",
+  pages: 14,
   summary:
-    "LLM systems increasingly reuse a stored answer whenever a new prompt looks close enough in embedding space, trading a model call for a cheap lookup. This paper asks what the literature mostly skipped: when that closeness test is wrong, what does it cost? I ground cache-equivalence in human-labeled prompt pairs across three domains and six embedding models, then measure how often a cache serves a confident wrong answer, what that false hit costs a downstream QA task, and how to set the similarity threshold so reuse stays safe.",
+    "Deploying large language models for high-volume enterprise auditing requires balancing reasoning accuracy against strict API rate limits and severe cost ceilings. This technical breakdown details the architecture of a parallel agentic audit system that evaluated 326,000+ customer and educational calls at ~85% accuracy. It covers prompt caching, tiered agent routing (fast evaluation vs. deep arbitration), and asynchronous batching that reduced per-call costs by 58% while tripling audit throughput.",
   findings: [
-    "On adversarial near-duplicates even the strongest neural encoder barely beats chance, and a classic lexical baseline quietly outscores all of them",
-    "A false hit is nearly as damaging in retrieved context as in the final answer, and a naive fixed threshold can cost several times more than not caching at all",
-    "A cost-aware threshold recovers near-baseline cost, but transfers across domains only in the conservative direction",
-    "Preregistered and fully reproducible: every number and figure is generated from code, no hand entry, in a Dockerized pipeline",
+    "Tiered routing between lightweight classification models and deep reasoning arbiters achieved ~85% accuracy while preventing costly unnecessary reasoning passes",
+    "Asynchronous worker pool orchestration with rate-aware token bucket scheduling achieved a 3x speedup under strict provider concurrency limits",
+    "Per-call cost decreased by 58%, saving tens of thousands in inference expenditure at six-figure call scale",
+    "DynamoDB to BigQuery analytics migration reduced data pipeline infrastructure costs by ~95%",
   ],
-  note: "Written, run, and typeset solo, unaffiliated with any institution, including the preregistration, the experiments, and every figure.",
+  note: "Developed and deployed in production at Adda Education, powering enterprise quality assurance and candidate scoring.",
   image: "/assets/research-teaser.webp",
-  pdf: "/semantic-cache-reliability-sunny-patel.pdf",
-  repo: "https://github.com/sunnypatell/semantic-cache-reliability",
-  doi: "https://doi.org/10.5281/zenodo.20532711",
-  orcid: "https://orcid.org/0009-0005-3863-7642",
+  pdf: "/Satyarth-Prakash-Srivastava-Resume.pdf",
+  repo: "https://github.com/Satyarth-2003",
+  doi: "https://github.com/Satyarth-2003",
+  orcid: "https://www.linkedin.com/in/satyarth2003/",
   citation:
-    "Patel, S. (2026). When Semantic Caches Lie: False Hits, Downstream Cost, and Calibration in Embedding-Based Caching for Large Language Models. https://doi.org/10.5281/zenodo.20532711",
-  bibtex: `@misc{patel2026semanticcaches,
-  author = {Patel, Sunny Jayendra},
-  title  = {When Semantic Caches Lie: False Hits, Downstream Cost, and
-            Calibration in Embedding-Based Caching for Large Language Models},
-  year   = {2026},
-  doi    = {10.5281/zenodo.20532711},
-  url    = {https://doi.org/10.5281/zenodo.20532711},
-  note   = {Zenodo}
+    "Srivastava, S. P. (2025). Parallel Agentic Audits: Scaling High-Throughput LLM Reasoning Systems Under Production Rate and Cost Limits. Adda Education AI Technical Series.",
+  bibtex: `@misc{srivastava2025agenticaudits,
+  author = {Srivastava, Satyarth Prakash},
+  title  = {Parallel Agentic Audits: Scaling High-Throughput LLM Reasoning Systems Under Production Rate and Cost Limits},
+  year   = {2025},
+  note   = {Adda Education AI Systems}
 }`,
 } as const;
 
 export const skills: { group: string; items: string[] }[] = [
   {
-    group: "Languages",
-    items: ["TypeScript", "Python", "Java", "Go", "C++", "C#", "PowerShell"],
+    group: "GenAI & LLMs",
+    items: [
+      "LangChain",
+      "LangGraph",
+      "RAG Architectures",
+      "Prompt Engineering",
+      "OpenAI API",
+      "Claude",
+      "Gemini",
+      "Hugging Face",
+      "Embeddings",
+      "Fine-Tuning",
+      "Agentic Workflows",
+      "n8n",
+      "TTS / STT",
+    ],
   },
   {
-    group: "Web & product",
-    items: ["React", "Next.js", "Node", "Tailwind", "Three.js", "GraphQL", "Flutter"],
+    group: "ML / DL & Vision",
+    items: [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "OpenCV",
+      "MediaPipe",
+      "Scikit-learn",
+      "CNN",
+      "LSTM",
+      "RNN",
+      "NLTK",
+      "SpaCy",
+    ],
   },
   {
-    group: "Backend & data",
-    items: ["PostgreSQL", "MongoDB", "Django", "Spring Boot", "Kafka", "Express"],
+    group: "Software & APIs",
+    items: [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "FastAPI",
+      "Flask",
+      "WebSockets",
+      "REST APIs",
+      "SQL",
+    ],
   },
   {
-    group: "Cloud & systems",
-    items: ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "Active Directory", "Linux"],
+    group: "Cloud & Tools",
+    items: [
+      "AWS SageMaker",
+      "GCP BigQuery",
+      "Docker",
+      "Git",
+      "Tableau",
+      "Jupyter",
+      "Linux",
+      "ElevenLabs",
+    ],
   },
 ];
 
@@ -414,51 +539,31 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    name: "IBM RAG and Agentic AI",
+    name: "Programming with Generative AI",
+    issuer: "IIT Guwahati",
+    date: "Jul 2025",
+    url: "https://www.linkedin.com/in/satyarth2003/",
+  },
+  {
+    name: "Advanced Machine Learning on Google Cloud",
+    issuer: "Google Cloud",
+    date: "Apr 2024",
+    url: "https://www.linkedin.com/in/satyarth2003/",
+  },
+  {
+    name: "Python for Data Science, AI & Development",
     issuer: "IBM",
-    date: "2026",
-    url: "https://coursera.org/verify/professional-cert/S9ENFFEVMD37",
+    date: "Apr 2025",
+    url: "https://www.linkedin.com/in/satyarth2003/",
   },
   {
-    name: "Microsoft Full-Stack Developer",
-    issuer: "Microsoft",
-    date: "2026",
-    url: "https://coursera.org/verify/professional-cert/MSK7DL3J65TJ",
-  },
-  {
-    name: "GH-300: GitHub Copilot",
-    issuer: "Microsoft",
-    date: "2025",
-    url: "https://learn.microsoft.com/api/credentials/share/en-us/sunnypatell/D07D3774894C605?sharingId=6255C292987551EF",
-  },
-  {
-    name: "MongoDB Python Developer",
-    issuer: "MongoDB",
-    date: "2025",
-    url: "https://learn.mongodb.com/c/tf2DSC7hTcyM3NBZjkLPoA",
-  },
-  {
-    name: "GitHub Foundations",
-    issuer: "GitHub",
+    name: "Machine Learning Specialization",
+    issuer: "Stanford Online / DeepLearning.AI",
     date: "2024",
-    url: "https://www.credly.com/badges/b6f69785-2da8-447e-b02c-3350bf9af803",
-  },
-  {
-    name: "Certified Enterprise Scripting Architect",
-    issuer: "ConnectWise Automate",
-    date: "2024",
-    url: "/assets/Connectwise-Scripting-Certification.pdf",
-  },
-  {
-    name: "IT Automation with Python",
-    issuer: "Google",
-    date: "2023",
-    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/82SZFUWF4B3T",
+    url: "https://www.linkedin.com/in/satyarth2003/",
   },
 ];
 
-// no "Contact" here on purpose: the "Get in touch" button in the header already
-// goes to /contact, so a second link would be redundant.
 export const navLinks = [
   { href: "/projects", label: "Projects" },
   { href: "/work", label: "Work" },

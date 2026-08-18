@@ -33,8 +33,7 @@ export function ResearchCard() {
             {research.byline} · {research.pages} pages
           </p>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-bone-dim">
-            {research.subtitle}. A preregistered, fully reproducible study, written,
-            run, and typeset solo.
+            {research.subtitle}. High-volume enterprise LLM audit systems deployed in production.
           </p>
           <span className="mt-5 inline-flex items-center gap-1.5 font-mono text-xs text-ember">
             Read the case study

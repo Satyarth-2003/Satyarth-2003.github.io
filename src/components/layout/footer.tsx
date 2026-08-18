@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/primitives";
-import { OtuWebring } from "@/components/ui/otu-webring";
 import { navLinks, profile } from "@/content/site";
 
 export function Footer() {
@@ -11,10 +10,10 @@ export function Footer() {
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <Link href="/" className="font-mono text-sm text-bone">
-              sunny<span className="text-ember">.</span>patel
+              satyarth<span className="text-ember">.</span>srivastava
             </Link>
             <p className="mt-2 font-mono text-xs text-muted">
-              Software developer, {profile.location}
+              AI Engineer · {profile.location}
             </p>
           </div>
 
@@ -31,6 +30,18 @@ export function Footer() {
                 {l.label}
               </Link>
             ))}
+            <Link
+              href="/resume"
+              className="transition-colors hover:text-bone"
+            >
+              Résumé
+            </Link>
+            <Link
+              href="/contact"
+              className="transition-colors hover:text-bone"
+            >
+              Contact
+            </Link>
           </nav>
 
           <div className="flex gap-5 font-mono text-xs">
@@ -60,13 +71,13 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-line pt-6 font-mono text-[0.7rem] text-muted sm:flex-row sm:items-center sm:justify-between">
-          {/* on mobile the webring shares the copyright line (no extra row);
-              sm:contents flattens this so it becomes the centered middle item on desktop */}
           <div className="flex items-center justify-between gap-4 sm:contents">
-            <span>© {year} Sunny Patel</span>
-            <OtuWebring />
+            <span>© {year} Satyarth Prakash Srivastava</span>
+            <span className="text-muted/70">
+              Gurugram, India · SDE-1 AI @ Adda Education
+            </span>
           </div>
-          <span>Designed and built from scratch.</span>
+          <span>Engineered for intelligence & scale.</span>
         </div>
       </Container>
     </footer>

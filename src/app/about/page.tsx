@@ -8,7 +8,7 @@ import { about, skills } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Sunny Patel: a software developer who likes the whole problem.",
+  description: "About Satyarth Prakash Srivastava: AI Engineer architecting production GenAI systems.",
   alternates: { canonical: "/about" },
 };
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[var(--radius)] border border-ember/40">
                 <Image
                   src="/assets/portrait.jpg"
-                  alt="Sunny Patel"
+                  alt="Satyarth Prakash Srivastava"
                   fill
                   priority
                   quality={90}

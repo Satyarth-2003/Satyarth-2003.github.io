@@ -1,23 +1,22 @@
 cff-version: 1.2.0
 message: "If you reference this project or its source, please cite it as below."
-title: "Sunny Patel Portfolio"
+title: "Satyarth Prakash Srivastava Portfolio"
 type: software
 authors:
-  - family-names: Patel
-    given-names: Sunny Jayendra
-    email: sunnypatel124555@gmail.com
-    orcid: "https://orcid.org/0009-0005-3863-7642"
-repository-code: "https://github.com/sunnypatell/Portfolio"
-url: "https://www.sunnypatel.net"
+  - family-names: Srivastava
+    given-names: Satyarth Prakash
+    email: satyarth.s.2003@gmail.com
+repository-code: "https://github.com/Satyarth-2003"
+url: "https://satyarth-2003.github.io"
 abstract: >-
-  Source for Sunny Patel's personal portfolio: a Next.js 16 / React 19
-  application with an interactive 3D hero, a server-side contact pipeline, and
-  content covering his software engineering work and projects.
+  Source for Satyarth Prakash Srivastava's personal portfolio: a Next.js 16 /
+  React 19 application with an interactive 3D hero, a server-side contact
+  pipeline, and content covering his AI engineering work and projects.
 keywords:
   - portfolio
-  - software-engineer
+  - ai-engineer
   - nextjs
   - react
   - three-js
   - typescript
-license-url: "https://github.com/sunnypatell/Portfolio/blob/main/LICENSE"
+license-url: "https://github.com/Satyarth-2003/Satyarth-2003.github.io/blob/main/LICENSE"
