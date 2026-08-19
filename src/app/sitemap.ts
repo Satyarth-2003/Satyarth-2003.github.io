@@ -3,6 +3,8 @@ import { projects } from "@/content/site";
 
 const base = "https://satyarth-2003.github.io";
 
+export const revalidate = false;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 

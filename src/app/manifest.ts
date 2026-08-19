@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+export const revalidate = false;
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Satyarth Prakash Srivastava · AI Engineer",
