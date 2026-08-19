@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: "/research",
     images: [
       {
-        url: "/og-image.png",
+        url: "/satyarth-og-image.png?v=2",
         width: 2560,
         height: 1280,
         alt: "Satyarth Prakash Srivastava · AI Engineer",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${research.title} · Satyarth Prakash Srivastava`,
-    images: ["/og-image.png"],
+    images: ["/satyarth-og-image.png?v=2"],
   },
 };
 

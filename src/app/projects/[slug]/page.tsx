@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `/projects/${p.slug}`,
       images: [
         {
-          url: "/og-image.png",
+          url: "/satyarth-og-image.png?v=2",
           width: 2560,
           height: 1280,
           alt: "Satyarth Prakash Srivastava · AI Engineer",
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: `${p.name} · Satyarth Prakash Srivastava`,
       description: p.oneLiner,
-      images: ["/og-image.png"],
+      images: ["/satyarth-og-image.png?v=2"],
     },
   };
 }

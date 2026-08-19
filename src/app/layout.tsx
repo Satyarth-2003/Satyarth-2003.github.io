@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     siteName: "Satyarth Prakash Srivastava",
     images: [
       {
-        url: "/og-image.png",
+        url: "/satyarth-og-image.png?v=2",
         width: 2560,
         height: 1280,
         alt: "Satyarth Prakash Srivastava · AI Engineer",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "Satyarth Prakash Srivastava · AI Engineer",
     description:
       "AI Engineer building production LLM-powered automation systems, GenAI pipelines, and agentic workflows at scale.",
-    images: ["/og-image.png"],
+    images: ["/satyarth-og-image.png?v=2"],
   },
 };
 
